@@ -1,3 +1,49 @@
-p{
-	
+.about{
+	display: inline-block;
+}
+.spu-logo{
+	margin-left: 13%;
+	margin-top: 2%;
+	height: auto;
+	width: 225px;
+}
+.header{
+	height: 143px;
+}
+ul.tab-link{
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	margin : 0;
+}
+.tab{
+	background-color: #2E641F;
+	height: 50px;
+	width: 100%;
+	font-size: 15px;
+	color:#BEBEBE;
+	font-family: 'Roboto', sans-serif;
+}
+.content{
+	width: 1024px;
+	height:50%;
+	background-color: white;
+	margin: 0 auto;
+}
+ul a:hover{
+	color:white;
+}
+a{
+	text-decoration: none;
+	color:#E0E0E0;
+	margin-left: 10px;
+	position: center;
+}	
+li{
+	float: left;
+	margin-left: 5px;
+}
+.content-picture{
+	position: center;
 }
