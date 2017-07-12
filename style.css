@@ -1,81 +1,88 @@
-.about{
-	display: inline-block;
-}
-.spu-logo{
-	margin-left: 165px;
-	margin-top: 30px;
-	margin-right: auto;
-	margin-bottom: auto;
-	height: auto;
-	width: 225px;
-}
-.header{
-	height: 143px;
-	width: 100	%;
-}
-body{
-	margin : 0;
-}
-.tab{
-	background-color: #2E641F;
-	height: 50px;
-	font-size: 15px;
-	text-decoration: none;
-	color:#E0E0E0;
-}
-.tab-link{
-	color:#BEBEBE;
-	font-family: 'Roboto Slab', sans-serif;
-	list-style: none;
-	float: left;
-	margin-left: 15%;
-}
-.content{
-	height: 700px;
-	background-color: yellow;
-}
-a:hover{
-	color:black;
-}
-a{
-	text-decoration: none;
-	color:white;
-	margin: 0;
-}
-li.menu{
-	float: left;
-	margin-left: 5px;
-}
 .container{
-	width: 100%;
+	width: 1024px;
 	margin: 0 auto;
 	background-color:#E9E9E9
 }
-li{
-	list-style: none;
+.header{
+	height: 145px;
+	width: 100%;
 }
-header-content{
-}
-ul.header-content{
-	display:inline-block;
-	font-size: 15px;
+.inner-header{
+	width: 1024px;
+	height: 100px;
+	margin: 0 auto;
 }
 .logo-container{
-	height: 143px;
-	width: auto;
+	width: 230px;
 	float: left;
+	margin-top: 25px;
+	margin-left: 25px;
 }
-.header-container{
-	margin-top: 20px;
+.spu-logo{
+	height: auto;
+	width: 225px;
+}
+
+.header-content{
+	margin-left: 5px;
+	width:725px;
 	float: right;
-	margin-right: 20px;
-	font-family: 'Roboto Slab', sans-serif;
+	margin-top: 25px;
+	height: 100px;
 }
-.footer{
-	background-color: black;
-	height: 250px;
+.about{
+	float:left;
+	margin-top: 20px;
+	margin-left: 25px;
+	border-left: 3px solid #747474;
+	padding-left: 10px;
+	height: 47px;
 }
-.min-footer{
-	background-color: gray;
-	height: 300px;
+.programs{
+	float:left;
+	margin-top: 20px;
+	margin-left: 15px;
+	border-left: 3px solid #747474;
+	padding-left: 10px;
+	height: 47px;
+}
+.registrar{
+	float:left;
+	margin-top: 20px;
+	margin-left: 15px;
+	border-left: 3px solid #747474;
+	padding-left: 10px;
+	height: 47px;
+}
+.alumni{
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+	border-left: 3px solid #747474;
+	padding-left: 10px;
+	height: 47px;
+}
+.header-title{
+	color: #434343	;
+	font-family: "Roboto Slab";
+	font-size: 17px;
+}
+.h-content{
+	font-size: 12px;
+	opacity: 0.5;
+	font-family: "Open Sans";
+}
+body{
+	margin : 0;
+	background-color: #E9E9E9;
+}
+.content{
+	height: 700px;
+}
+p{
+	margin: 0;
+}
+.second-header{
+	background-color: #2E641F;
+	height: 50px;
 }
