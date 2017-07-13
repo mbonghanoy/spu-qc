@@ -68,7 +68,7 @@
 }
 .h-content{
 	font-size: 12px;
-	opacity: 0.5;
+	opacity: 0.4;
 	font-family: "Open Sans";
 }
 body{
@@ -105,7 +105,7 @@ p{
 	padding-left: 5px;
 	font-size: 14px;
 }
-input[type=text] {
+.search input[type=text] {
 	height: 50px;
     width: 90px;
     box-sizing: border-box;
@@ -122,7 +122,6 @@ input[type=text] {
 }
 .search{
 	float: right;
-	background-color: red;
 }
 .menu-list a{
 	text-decoration: none;
@@ -174,18 +173,17 @@ input[type=text] {
 	margin: 0 auto;
 	margin-top: 15px;
 }
-.feedback{
+.subscription{
 	margin: 0 auto;
 	width: 100%;
-	height: 100px;
 	background-color:#E9E9E9;
 }
-.first-row-feedback-page{
+.subscription-page{
 	width: 1024px;
 	margin: 0 auto;
-	height: 400px;
+	height: 450px;
 }
-.first-column,.second-column{
+.first-column,.second-column,.second-row-first,.second-row-second{
 	margin: 0 auto;
 	border: .5px solid #C8C8C8;
 	border-top: 5px solid #2E641F;
@@ -199,4 +197,86 @@ input[type=text] {
 }
 .second-column{
 	float: right;
+}
+.second-row-first{
+	margin-top: 15px;
+	float: left;
+}
+.second-row-second{
+	margin-top: 15px;
+	float: right;
+}
+.feedback-form{
+	width: 100%;
+	height: 500px;
+	background-color:#E9E9E9;
+}
+.box-form{
+	margin: 0 auto;
+	width: 1024px;
+	height: 800px;
+}
+.sign-up-form{
+	margin: 0 auto;
+	border: .5px solid #C8C8C8;
+	border-top: 5px solid #2E641F;
+	width : 1024px;
+	height: 700px;
+	background-color: white;
+}
+.form-title{
+	padding: 20px;
+	font-family: "Open Sans";
+	font-size: 20px;
+	color: #2E641F;
+	border-bottom: .5px solid #DCDCDC;
+	
+}
+.form-details{
+	padding: 20px;
+}
+.form-message{
+	opacity: 0.3;
+	font-family: "Open Sans";
+	font-size: 15px;
+}
+.sign-up-details{
+	width: 1000px;
+	margin: 0 auto;
+}
+.main-details input[type=text]  {
+    width: 318px;
+    height: 55px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 11px;
+}
+.subject input[type=text]  {
+    width: 978px;
+    height: 55px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 11px;
+}
+.message textarea{
+	width: 978px;
+	margin-top: 8px;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin-left: 11px;
+}
+.subject input[type=text],.message textarea,.main-details input[type=text]{
+	background-color: #F8F8F8;
 }
