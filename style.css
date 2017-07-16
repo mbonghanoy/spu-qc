@@ -54,66 +54,6 @@ section{
     opacity: #222;
 }
 .tab-menu{
-<<<<<<< HEAD
-	width: 100%;
-	background-color: #2E641F;
-	height: 50px;
-	font-family: "Open Sans Light";
-}
-.tab-link{
-	margin: 0 auto;
-	height:50px;
-	width: 1024px;
-}
-.menu-list{
-	width: 1024px;
-	height: 20px;
-	margin: 0 auto;
-}
-.menu-list li{
-	margin-top: 20px;
-	list-style: none;
-	float: left;
-	padding-left: 5px;
-	font-size: 14px;
-}
-.search input[type=text] {
-	height: 50px;
-    width: 90px;
-    box-sizing: border-box;
-    border: 1px;
-    font-size: 14px;
-    background-color: #2C601E;
-    background-image: url('img/search-icon.png');
-    background-position: 10px 17px; 
-    background-repeat: no-repeat;
-    padding: 9px 10px 10px 32px;
-    background-size: 15px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-.search{
-	float: right;
-}
-.menu-list a{
-	text-decoration: none;
-	color: #999999;
-}
-.menu-list a:hover{
-	color: white;
-}
-.content-container{
-	background-color:#E9E9E9
-	width: 100%;
-}
-.inner-content{
-	width: 1024px;
-	margin: 0 auto;
-}
-.content-image{
-	width: 1024px;
-	height: auto;
-=======
     background: #2E641F;
     color: #FFF;
     overflow: hidden;
@@ -220,7 +160,7 @@ section{
 	font-size: 20px;
 	color: #2E641F;
 	border-bottom: .5px solid #DCDCDC;
-	
+
 =======
     height: 450px;
 }
@@ -236,22 +176,14 @@ section{
     font-size: 20px;
     color: #2E641F;
     border-bottom: .5px solid #DCDCDC;
-
->>>>>>> mini-footer
 }
 .form-details{
     padding: 20px;
 }
 .form-message{
-<<<<<<< HEAD
 	opacity: 0.3;
 	font-family: "Open Sans Light";
 	font-size: 15px;
-=======
-    opacity: 0.3;
-    font-family: "Open Sans";
-    font-size: 15px;
->>>>>>> mini-footer
 }
 .sign-up-details{
     width: 1000px;
@@ -290,114 +222,9 @@ section{
     padding: 12px 20px;
     margin-left: 11px;
 }
-<<<<<<< HEAD
-.subject input[type=text],.message textarea,.main-details input[type=text]{
-	background-color: #F8F8F8;
-}
-.submit-button button{
-	font-family: "Open Sans Light";
-    background-color: #255119;
-    height: 50px;
-    border: none;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
-    margin-top: 8px;
-    margin-left: 11px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-.mini-footer{
-	height: 500px;
-	background-color: #363636;
-}
-.mini-footer{
-	padding-top: 20px;
-}
-.mini-footer-1 li{
-	list-style: none;
-	line-height: 22px;
-	padding-top: 15px;
-	font-family: "Roboto Slab Light";
-	color: #999999;
-	font-size: 16px;
-}
-.mini-footer-2 li{
-	list-style: none;
-	line-height: 22px;
-	padding-top: 15px;
-	font-family: "Roboto Slab Light";
-	color: #999999;
-	font-size: 16px;
-}
-.mini-footer-3 li{
-	list-style: none;
-	line-height: 22px;
-	padding-top: 15px;
-	font-family: "Roboto Slab Light";
-	color: #999999;
-	font-size: 16px;
-}.mini-footer-4 li{
-	list-style: none;
-	line-height: 22px;
-	padding-top: 15px;
-	font-family: "Roboto Slab Light";
-	color: #999999;
-	font-size: 16px;
-}
-.mini-footer-1{
-	float: left;
-}
-.mini-footer-2{
-	margin-left: 45px;
-	float: left;
-}
-.mini-footer-3{
-	margin-left: 45px;
-	float: left;
-}
-.mini-footer-4{
-	margin-left: 45px;
-	float: left;
-}
-.inner-mini-footer{
-	margin: 0 auto;
-	height: 100%;
-	width: 1024px;
-}
-.footer{
-	height: 250px;
-	background-color: #222222;
-}
-.inner-footer{
-	margin: 0 auto;
-	height: 250px;
-	width: 450px;
-	background-color: blue;	
-}
-.inner-footer li{
-	list-style: none;	
-}
-.logo-group{
-}
-.logo1,.logo2,.logo3{
-	width: 60px;
-	height: 40px;
-}
 .foot-title{
 	color: white;
 }
-li a{
-	text-decoration: none;
-	color: #999999;;
-}
-li a:hover{
-	color: white;
-}
-=======
 .subject input[type=text], .message textarea, .main-details input[type=text]{
     background-color: #F8F8F8;
 }
@@ -406,6 +233,7 @@ li a:hover{
     color: #FFF;
 }
 .footer-navigator li{
+    font-size: 16px;
     float: left;
     padding: 0 25px;
     color: #FFF;
@@ -423,7 +251,8 @@ li a:hover{
     text-decoration: none;
     color: #FFF;
     line-height: 30px;
-    font-family: "Roboto Slab";
+    font-family: "Open Sans";
+    font-size: 14px;
 }
 .footer-navigator li a:hover{
     color: white;
@@ -443,4 +272,3 @@ li a:hover{
     height: 300px;
     padding-top: 50px;
 }
->>>>>>> mini-footer
